@@ -1,0 +1,5 @@
+[run]
+source = trytond.modules.enrollment_system
+
+[report]
+omit = */tests/*, */setup.py
