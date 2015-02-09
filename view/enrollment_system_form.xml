@@ -1,0 +1,32 @@
+<data>
+    <xpath expr="/form/notebook" position="inside">
+            <page string="Personal Details" id="personal">
+                <label name="gender"/>
+                <field name="gender"/>
+                <label name="dob" />
+                <field name="dob" />
+                <label name="pan_number" />
+                <field name="pan_number" />
+                <label name="passport" />
+                <field name="passport" />
+                <label name="birthplace" />
+		<field name="birthplace" />
+		<label name="bloodgroup" />
+		<field name="bloodgroup" />
+		<label name="age" />
+		<field name="age" />		
+		<label name="nationality" />
+		<field name="nationality" />
+		<label name="height" />
+		<field name="height" />
+		<label name="weight" />
+		<field name="weight" />
+		<label name="identificationmark" />
+		<field name="identificationmark" />
+		<label name="maritalstatus" />
+		<field name="maritalstatus" />
+                <label name="hobbies" />
+		<field name="hobbies" />
+            </page>
+    </xpath>
+</data>
