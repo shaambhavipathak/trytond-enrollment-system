@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<tree string="educational_background_tree"> 
+       <field name="graduations"/>
+        <field name="specialization"/>
+        <field name="grade"/>
+        <field name="university"/>
+        <field name="year_of_completion"/>
+        <field name="references"/>
+        <field name="post_held"/>
+        <field name="institution"/>
+        <field name="reference_city"/>
+</tree>

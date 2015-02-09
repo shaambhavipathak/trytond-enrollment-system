@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<form string="educational_background_form" col="6">
+	<label name="graduations"/>
+        <field name="graduations"/>
+        <label name="specialization"/>
+        <field name="specialization"/>
+        <label name="grade"/>
+        <field name="grade"/>
+        <label name="university"/>
+        <field name="university"/>
+        <label name="year_of_completion"/>
+        <field name="year_of_completion"/>
+        <label name="references"/>
+        <field name="references"/>
+        <label name="post_held"/>
+        <field name="post_held"/>
+        <label name="institution"/>
+        <field name="institution"/>
+        <label name="reference_city"/>
+        <field name="reference_city"/>   
+</form>

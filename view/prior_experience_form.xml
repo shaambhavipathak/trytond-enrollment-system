@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<form string="prior_experience_form" col="6">
+          <label name="post_held"/>
+          <field name="post_held"/>
+          <label name="department"/>
+          <field name="department"/>
+          <label name="experience_company"/>
+          <field name="experience_company"/>
+          <label name="experience_city"/>
+          <field name="experience_city"/>
+          <label name="tenure"/>
+          <field name="tenure"/>
+          <label name="references"/>
+          <field name="references"/>
+          <label name="designation"/>
+          <field name="designation"/>
+          <label name="experience_area"/>
+          <field name="experience_area"/>
+          <label name="organization"/>
+          <field name="organization"/>
+          <label name="email"/>
+          <field name="email"/>
+</form>
+

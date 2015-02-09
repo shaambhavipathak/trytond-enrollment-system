@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<form string="skill_set_form" col="6">
+         <label name="skill_area"/>
+         <field name="skill_area"/>
+         <label name="skill"/>
+         <field name="skill"/>
+         <label name="certificate_grade"/>
+         <field name="certificate_grade"/>
+         <label name="project_summary"/>
+         <field name="project_summary"/>
+</form>
+
