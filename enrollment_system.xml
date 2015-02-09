@@ -22,5 +22,40 @@
             <field name="inherit" ref="party.party_view_form" />
             <field name="name">enrollment_system_form</field>
         </record>
+        <record model="ir.ui.view" id="party_form">
+           <field name="model">party.party</field>
+           <field name="inherit" ref="party.party_view_form"/>
+           <field name="name">party_form</field>
+       </record>
+       <record model="ir.ui.view" id="educational_background_view_tree">
+           <field name="model">party.educational_background</field> 
+           <field name="type">tree</field>  
+           <field name="name">educational_background_tree</field>
+       </record>   
+       <record model="ir.ui.view" id="educational_background_view_form">
+           <field name="model">party.educational_background</field>
+           <field name="type">form</field>   
+           <field name="name">educational_background_form</field>
+       </record>
+       <record model="ir.ui.view" id="prior_experience_view_tree">
+           <field name="model">party.prior_experience</field>
+           <field name="type">tree</field>
+           <field name="name">prior_experience_tree</field>
+       </record>
+       <record model="ir.ui.view" id="prior_experience_form">
+           <field name="model">party.prior_experience</field>  
+           <field name="type">form</field>
+           <field name="name">prior_experience_form</field>
+       </record>
+       <record model="ir.ui.view" id="skill_set_view_tree">
+           <field name="model">party.skill_set</field>  
+           <field name="type">tree</field>
+           <field name="name">skill_set_tree</field>
+       </record>
+       <record model="ir.ui.view" id="skill_set_view_form">
+           <field name="model">party.skill_set</field>
+           <field name="type">form</field>
+           <field name="name">skill_set_form</field>
+       </record>
     </data>
 </tryton>

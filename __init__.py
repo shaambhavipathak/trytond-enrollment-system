@@ -6,13 +6,18 @@
     :license: BSD, see LICENSE for more details.
 """
 from trytond.pool import Pool
-from medical_family_details import Party
-from enrollment_system import PartyPersonalDetails
+from medical_family_details import Party as RajatParty
+from enrollment_system import EducationalBackground, PriorExperience, SkillSet
+from enrollment_system import Party, PartyPersonalDetails
 
 
 def register():
     Pool.register(
+        RajatParty,
         Party,
         PartyPersonalDetails,
+        EducationalBackground,
+        PriorExperience,
+        SkillSet,
         module='enrollment_system', type_='model'
     )

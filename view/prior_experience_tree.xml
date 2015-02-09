@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<tree string="Prior Experience">
+        <field name="post_held"/>
+        <field name="department"/>
+        <field name="experience_company"/>
+        <field name="experience_city"/>
+        <field name="tenure"/>
+        <field name="references"/>
+        <field name="designation"/>
+        <field name="experience_area"/>
+        <field name="organization"/>
+        <field name="email"/>
+</tree>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<tree string="skill_set_tree">
+        <field name="skill_area"/>
+        <field name="skill"/>
+        <field name="certificate_grade"/>
+        <field name="project_summary"/>
+</tree>
